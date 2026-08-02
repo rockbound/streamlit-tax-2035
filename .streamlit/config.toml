@@ -1,0 +1,6 @@
+[theme]
+primaryColor =             "#1A2A44" # Navy, Slider color
+backgroundColor =          "#F7F9FB" # White, The main background
+secondaryBackgroundColor = "#5D6D7E" # Gray, Not used?
+textColor =                "#262730" # Black, General text color
+font = "sans serif"
