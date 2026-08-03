@@ -32,7 +32,7 @@ def load_and_prepare_values(path: Path) -> pd.DataFrame:
     return df
 
 
-@st.cache_data
+@st.cache_data(ttl="1d")
 def load_data(local_path: Path) -> pd.DataFrame:
     assert local_path.exists(), f"Values CSV not found at {local_path}"
     return load_and_prepare_values(local_path)
